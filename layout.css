@@ -1,0 +1,49 @@
+body {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+aside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-layout {
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-photo-layout {
+    justify-self: end;
+    border-style: dotted;
+    border-width: 6px;
+}
+
+.footer-div-small-ul-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.main-home-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    align-items: center;
+}
+
+::placeholder {
+    text-align: center;
+}

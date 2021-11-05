@@ -1,0 +1,24 @@
+form {
+    margin-bottom: 3em;
+}
+
+textarea {
+    border-style: dotted;
+    border-width: 5px;
+}
+
+input[type=email],
+input[type=submit] {
+    border: 1px;
+    padding: 0.5em 2em;
+    margin: 1em 0.5em;
+}
+
+input[type=submit]{
+    box-shadow: 6px 4px 4px var(--dark-highlight-color);
+} 
+
+
+.email-input-field-margin {
+    margin-top: 1.5em;
+}

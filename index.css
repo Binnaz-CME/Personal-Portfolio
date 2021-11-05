@@ -1,0 +1,82 @@
+p {
+    margin: 1em;
+    line-height: 150%;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 0.6em;
+    border-radius: 5px;
+}
+
+header nav ul {
+    padding: 0;
+    margin: 0em 0.5em 0em 2em;
+}
+
+footer ul,
+small {
+    margin: 1em;
+}
+
+footer p {
+    margin: 2em 0em 1em 0em;
+}
+
+section div p {
+    margin: 1em 1em 2em 1em;
+}
+
+div p a,
+footer p a {
+    padding: 0.5em;
+    border-style: dotted;
+}
+
+h1,
+aside h3.center-text {
+    margin-top: 1.3em;
+    margin-bottom: 0em;
+}
+
+footer h2.center-text {
+    margin: 0;
+    padding-top: 1.3em;
+}
+
+.list-item {
+    list-style-type: none;
+    display: inline;
+    margin: 0.4em;
+}
+
+.b-akyuz-logo {
+    max-width: 17%; 
+    position: relative;
+    top: 0.3em;
+    left: 1em;
+}
+
+img.profile-photo-layout  {
+    max-width: 100%;
+    margin: 1em 0em 1em 1em;
+}
+
+.logo-style {
+    max-width: 8em;
+    margin: 0.7em;
+}
+
+.h3-portfolio {
+    display: inline-block;
+    position: relative;
+    left: 1em;
+    bottom: 1.2em;
+    margin: 0;
+}
+
+.link-box-shadow {
+    box-shadow: 6px 4px 4px var(--dark-highlight-color);
+}
+
