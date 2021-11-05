@@ -1,3 +1,37 @@
+@media (min-height: 1024px) {
+    body {
+        height: 100vh;
+    }
+    body {
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+    }
+
+    main > h2 {
+            margin-top: 6em !important;
+        }
+}
+
+@media (width: 280px) and (height: 653px) {
+    /* body {
+        width: 100vh;
+    } */
+    body {
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+    }
+}
+
+@media (width: 320px) and (height: 568px) {  /*Format för Iphone 5/SE, ger full bredd*/
+    body {
+        height: 100vh;
+    }
+    body {
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+    }
+}
+
 body {
     margin: 0 auto;
     max-width: 1024px;
