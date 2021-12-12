@@ -75,3 +75,7 @@ img.profile-photo-layout {
 .link-box-shadow {
   box-shadow: 6px 4px 4px var(--dark-highlight-color);
 }
+
+a:hover {
+  transition: 0.5s;
+}

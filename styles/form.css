@@ -9,3 +9,7 @@ input[type="submit"] {
   padding: 0.5em 2em;
   margin: 1em 0.5em;
 }
+
+input[type="submit"]:hover {
+  transition: 1s;
+}

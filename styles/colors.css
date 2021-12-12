@@ -92,3 +92,7 @@ input[type="submit"]:active {
 input[type="submit"] {
   box-shadow: 6px 4px 4px var(--dark-highlight-color);
 }
+
+.card-content {
+  background-color: rgba(201, 201, 201, 0.6);
+}

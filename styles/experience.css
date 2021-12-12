@@ -23,6 +23,5 @@ div h2 {
 .card-content {
   line-height: 1.5;
   padding: 0;
-  background-color: rgba(201, 201, 201, 0.6);
   flex-grow: 1;
 }
